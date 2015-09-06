@@ -57,6 +57,9 @@ header {
     padding:10px;
     height: 170px;
 }
+img {
+    border-radius: 10px;
+}
 .name {
     color: #DAE2DF;
     font-size: 48px;
@@ -73,15 +76,25 @@ header {
     padding-left: 20px;
 }
 
-.bio {
-
-    padding: 20px 20px 20px 100px;
-}
-img {
+#wrapper {
+    width: 100%;
     margin: 20px 20px 20px 20px;
-    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+
+}
+.photo {
+    padding: 10px;
+    float: left;
+
+}
+
+.text {
+    padding: 10px 10px 10px 50px;
+    margin: 10px;
+    width: 50%;
     float: left;
 }
+
 h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
@@ -92,8 +105,6 @@ footer {
     font-size: 20px;
     font-family: 'Satisfy', cursive;
     text-align: right;
-    line-height: 300px;
-    height: 170px;
     clear: both;
-    padding-left: 20px;
+    padding:  50px 20px 0px 0px;
 }
