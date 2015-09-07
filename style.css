@@ -57,8 +57,36 @@ header {
     padding:10px;
     height: 170px;
 }
+nav{
+    float: right;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    margin-top: -25px;
+    margin-right: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #F8F9A1;
+}
+a:visited{
+    color: #F8F9A1;
+}
+a:hover{
+    color: #A31A98;
+}
+a:active{
+    color: #DAE2DF;
+}
 img {
     border-radius: 10px;
+}
+ul {
+    list-style: circle outside;
+    list-style-position: inside;
 }
 .name {
     color: #DAE2DF;
@@ -83,7 +111,7 @@ img {
 
 }
 .photo {
-    padding: 10px;
+    margin: 10px;
     float: left;
 
 }
@@ -98,7 +126,29 @@ img {
 h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
+    color: #A31A98;
+}
+p{
+    line-height: 25px;
+}
+#project1 {
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+#project2 {
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    float: left;
 
+}
+#project3 {
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    float:left;}
+
+.project-text{
+    text-align: left;
 }
 footer {
     color: #474747;
