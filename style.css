@@ -150,6 +150,21 @@ p{
 .project-text{
     text-align: left;
 }
+
+.cpf {
+    padding: 20px;
+}
+
+.cpf-images img {
+    margin: 10px;
+}
+.hm14 {
+    padding: 20px;
+}
+
+.hm14-images img {
+    margin: 10px;
+}
 footer {
     color: #474747;
     font-size: 20px;
